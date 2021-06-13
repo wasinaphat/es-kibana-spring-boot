@@ -1,0 +1,6 @@
+spring:
+  profiles: "DEV"
+
+---
+server:
+  port: 3000

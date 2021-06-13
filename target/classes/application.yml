@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  main:
+    banner-mode: OFF
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+
+
+
+---
+spring:
+  profiles:
+    active: "PROD"
