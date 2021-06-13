@@ -13,3 +13,16 @@ spring:
 spring:
   profiles:
     active: "PROD"
+---
+springdoc:
+  swagger-ui:
+    suppoerted-submit-metods:
+      -get
+
+management:
+  metrics:
+    export:
+      elastic:
+        step: 1m
+        host: http://localhost:9200
+
